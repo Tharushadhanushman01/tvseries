@@ -1,0 +1,52 @@
+section {
+    height: 300px;
+    width: 200px;
+    background-color: wheat;
+    color: black;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    animation-name: x;
+    animation-duration: 4s;
+   animation-timing-function: ease-out ;
+   background: url(ravenswood.jpg);
+   animation-fill-mode: backwards;
+   animation-iteration-count: 5;
+}
+ @keyframes x {
+     from{ background-color: red;color: thistle;}
+     to { background-color: darkgray;}
+     from {width: 300px;height: 100px;}
+     to {width: 600px;height: 600px;}
+     from {font-family: 'Franklin Gothic Medium';}
+     to {font-family: Georgia, 'Times New Roman', Times, serif;}
+     0%{background-color:green; color: white;}
+ 
+    25%{ background-color: blue; }
+    50% {background-color: blueviolet; }
+    75% {background-color: brown; }
+    100% {background-color: black; }
+ 
+ }
+
+ @keyframes y {
+     0%{background-color:green; color: white;}
+ 
+    25%{ background-color: blue; }
+    50% {background-color: blueviolet; }
+    75% {background-color: brown; }
+    100% {background-color: black; }
+ }
+ 
+div {
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8,63, 8);
+    transform: skew(20deg, 30deg);
+    color: white;
+    transition: 1s;
+    font-size: 30px;
+}
+div:hover {
+    width: 300px;
+}
